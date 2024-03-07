@@ -1,9 +1,9 @@
 ---
-  title: "2022 Summer Workshop"
-  subtitle: "Learning Analytics in STEM Education Research Intitute" 
-  author: "**Dr. Shaun Kellogg**"
-  institute: "Instituttional Affiliation"
-  date: '`r format(Sys.time(), "%B %d, %Y")`'
+  title: "2023 Summer Workshop"
+  subtitle: "Learning Analytics in STEM Education Research Institute" 
+  author: "**The LASER Team**"
+  institute: "Institutional Affiliation"
+  date: 'July 17, 2023'
   output:
     xaringan::moon_reader:
       css:
@@ -59,23 +59,27 @@ xaringanExtra::use_tile_view()
 # `r rmarkdown::metadata$title`
 ## `r rmarkdown::metadata$subtitle`
 ### `r rmarkdown::metadata$author`
-### `r format(Sys.time(), "%B %d, %Y")`
+### `r rmarkdown::metadata$date`
 
 <br>
-### .font100[[go.ncsu.edu/laser-schedule](go.ncsu.edu/laser-schedule)]
+### .font100[Welcome Slides: [go.ncsu.edu/laser-welcome](https://go.ncsu.edu/laser-welcome)]
+### .font100[Welcome Packet: [go.ncsu.edu/laser-packet](https://go.ncsu.edu/laser-packet)]
+
+
 
 ---
-# Agenda
+# Welcome Notes
 
-<br>
 
 ## 1. Welcome to the Friday Institute!
 
 ## 2. Meet the LASER Team
 
-## 3. LASER Institute Core Components
+## 3. What is Learning Analytics? 
 
-## 4. Goals for the Year, the Week, and Today
+## 4. LASER Institute Core Components
+
+## 5. Goals for the Year, the Week, and Today
 
 
 ---
@@ -83,16 +87,51 @@ xaringanExtra::use_tile_view()
 
 At The Friday Institute, **our mission is to advance K-12 education through innovation** in teaching, learning and leadership so that ALL students are prepared to succeed in a rapidly changing world.
 
-- **Educate.** We conduct professional learning, research and evaluation.
+- **Educate.** We conduct research, evaluation and professional learning.
 - **Innovate.** We design supports, tools and structures for educational change.
 - **Inspire.** We convene and collaborate with partners in education, government and private industries to inform standards, policy and practice.
 
 The LASER Institute is a prime example of how we [Think and Do](https://www.ncsu.edu/think-and-do/) at the Friday Institute and we hope that you will carry this mission and vision forward! 
 
----
-class: clear, middle, center
 
-<img src="img/team_2022.png" height="450px"/>
+---
+# LASER Project Team
+<br>
+.center[<img src="img/laser-instructors.png" height="350px"/>]
+
+---
+# LASER Support Team
+<br>
+.center[<img src="img/laser-support.png" height="350px"/>]
+
+---
+# LASER Scholar TAs
+<br>
+.center[<img src="img/laser-tas.png" height="350px"/>]
+
+---
+# Friday Institute Operations Team
+<br>
+.center[<img src="img/laser-ops.png" height="350px"/>]
+
+---
+# What is Learning Analytics? 
+
+.pull-left[
+LA seeks to understand and improve learning environments through new forms of digital data and techniques from data science and AI: 
+
+- [Society for LA Research (SoLAR)](https://www.solaresearch.org/publications/hla-22/hla22-chapter1/) (Short Version)
+- [Handbook of Learning Analytics](https://www.solaresearch.org/publications/hla-22/hla22-chapter1/)  (Medium Version)
+- [Learning Analytics Goes to School](https://www.solaresearch.org/publications/hla-22/) (Long Version)
+
+]
+
+.pull-right[
+
+.center[<img src="img/laser-keynote.png" height="300px"/>
+[LASER Institute Keynote](https://youtu.be/gKM3T_CzC10)]]
+
+
 
 
 ---
@@ -116,45 +155,34 @@ Each topic (FS, TM, ML, and SNA) consist of four progressively sequenced labs th
 ]
 ]
 
+.panel[.panel-name[SHARK Goals]
+
+Time and support is provided for scholars to develop a professional learning plan and work with your own data to further research goals.
+
+> *I am thrilled to share with you all about a recently funded project that was influenced by my participation in LASER. I hope also to continue growing collaborations that have emerged out of this community!* 
+
+.pull.right[Justice Walker, PhD]
+.pull.right[2021 LASER Scholar]
+]
 
 
 .panel[.panel-name[Guest Speakers]
 
-.pull-left[
-Authors of the recently updated [Handbook of Learning Analytics](https://www.solaresearch.org/publications/hla-22/): 
-- What is learning analytics?
-- LA for Supporting Collaboration
-- Data Literacy and Learning Analytics
-- LA and Learning at Scale
-- Fairness, Bias, and Equity in LA
 
-]
-
-.pull-right[
-<img src="img/laser-keynote.png" height="300px"/>
-.font80[.center[[2021 LASER Keynote](https://youtu.be/gKM3T_CzC10)]]
-]
-
+.center[<img src="img/laser-speakers.png" height="380px"/>]
 
 
 ]
 
-.panel[.panel-name[Community]
-We've partnered with [Participate, Inc.](https://www.participate.com) to help us: 
-- develop in-person and online **community-building activities**
-- organize **affinity groups** for collaborative research 
-- structure monthly **progress updates** with scholars
-- facilitate online **discussions forums** 
-]
+.panel[.panel-name[Community Activities]
+
+Throughout the Summer Workshop Rob Moore and our events team have planned a range of activities including: 
+- **Affinity Groups** to help make new connections and inform their SHARK Goals.
+- **Formal Activities** to provide opportunities for Scholars to network and learn about research areas.
+- **Funtivities** including a trip to Howling Cow Creamery, a local brewery and dinner at the Friday Institute.
+- **Community Badges** which you can earn during the Summer Workshop and fall semester. 
 
 
-.panel[.panel-name[Planning & Research]
-
-Time and support is provided for scholars to develop a professional learning plan and work with your own data to further research goals.
-
-> *I am thrilled to share with you all about a recently funded project that was influenced by my participation in LASER.  I hope also to continue growing collaborations that have emerged out of this community!* 
-
-.pull.right[2021 LASER Scholar]
 
 ]
 
@@ -170,7 +198,7 @@ Time and support is provided for scholars to develop a professional learning pla
 
 1. **Disciplinary Knowledge**: Deepen understanding of LA methodologies, literature, applications and ethical issues as they relate to STEM education and equity.
 
-2. **Technical Skills:** Develop proficiency with R,  GitHub and other tools for collaboration, reproducible research and computational analysis.
+2. **Technical Skills:** Develop proficiency with R, Posit Cloud, and other tools for reproducible and collaborative data-intensive research.
 
 3. **Social Capital:** Expand their professional networks, connecting with researchers and experts in LA related fields, as well as other scholars focused on STEM education.
 
@@ -179,30 +207,24 @@ Time and support is provided for scholars to develop a professional learning pla
 .panel[.panel-name[This Week]
 
 1. **Have fun.** Learning new methods can be rewarding but hard, especially when coding is involved, but we want to you enjoy yourselves this week.  
-2. **Make friends.** We have an amazing groups of scholars participating this year, use this opportunity to get to know them better. 
-3. **Make a plan.** You won't be come an expert in LA in a week, but we want to you leave this week with a plan to continue learning and apply it to your research. 
-4. **Earn a badge.** You'll be exposed to a wide range of new concepts and techniques this week, we want you to dig into one and demonstrate what you've learned. 
+2. **Make Connections** We have an amazing groups of scholars participating this year, use this opportunity to get to know them better. 
+3. **Develop a plan.** You won't become an expert in LA overnight, but we want to you leave Friday with a plan to continue learning and apply it to your research. 
+4. **Earn two badges.** You'll be exposed to many new concepts and techniques this week, we want you to dig in and demonstrate what you've learned. 
 5. **Provide Feedback.** We've revamped our curriculum and need your input to figure out what works well and how we can improve. 
 
 ]
 
 .panel[.panel-name[Today]
 
-1. **Community Building (9:15)** - Get to know some "facts" about your colleagues. 
-
-1. **Learning Lab Intros (10:00)** - Learn about the each topic area (FS, ML, TM, and SNA) and accompanying labs to help choose a learning path this week. 
-
-1. **Keynote Speakers (1:30)** Learn what exactly Learning Analytics is from our esteemed guest speaker Dr. George Siemens.
-
-1. **Laser Toolkit Orientation (2:15)** Git comfor-R-table with GitHub and RStudio, our primary tools for LASER and reproducible research. 
-
+1. **Community Building (9:15)** - Affinity groups, badges and SHARK goals, oh my!
+1. **Learning Lab Intros (10:00)** - Learn about reproducible research and the data-intensive research workflow in our LASER Learning Lab orientation.
+1. **Lunch (12:30)** - Eat some great food, connect with new colleagues. 
+1. **Scholar TA Panel (1:30)** - Meet three of our past scholars who'll be assisting  throughout the week and learn about their LA journey.            
+1. **Method Overviews (2:15)** - Learn about our four concentration areas (FS, ML, TM, and SNA) and accompanying labs and select a learning path this week.
+1. **Field Trip (4:30)** - Ice cream party at NC State's dairy farm!
 ]
 
 ]
-
-
-
-
 
 ---
 class: clear, center

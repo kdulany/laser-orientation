@@ -1,29 +1,13 @@
 <img src="img/LASER_Hx.png" width="30%"/>
 
-# LASER Orientation Lab Session
- 
-## Orientation Introduction
+# LASER Learning Lab Orientation
 
-Introduction to the concepts of open science and reproducible research for application to learning analytics using R and R Studio.The focus of our essential readings are to get LASER scholars oriented to the essentials of reproducible research. The Code-along includes introduction to the R integrated development environment and R basics (packages, functions, objects, and arguments). Understanding the basic syntax is key for using R and R packages. Written by Catherine Noonan, Jeanne McClure, Presented by Shaun Kellogg and Jenn Houchins  at the Learning Analytics in STEM Education Research (LASER) workshop, July 11, 2022, through July 15, 2022, at the Friday Institute, North Carolina State University.
+The LASER learning lab orientation focuses on reproducible research and the data-intensive research workflow and is designed to orient you to the following instructional activities that make up each LASER learning lab:
 
-## Reproducible Research
+1.  [**Overview Presentation**](https://laser-institute.github.io/laser-orientation/laser-lab-slides.html?panelset=r&panelset1=research-context&panelset2=eda&panelset3=goal&panelset4=data-products#1)**:** Each lab consists of a two-part interactive presentation 60-minutes in length and includes an overview of key concepts and an interactive code-along. Part I of this presentation provides an introduction to reproducible research, including best practices and tools of reproducible research we'll be using throughout the LASER Institute. Part II provides a short but highly structured code-along activity that demonstrates the data-intensive research workflow and highlights key R packages and functions for wrangling, exploring, and modeling data.
 
-This presentation provides a conceptual overview of reproducible research, particularly as it pertains to open science, and describe the core practices of reproducible research.
+2.  [**Case Study**](https://laser-institute.github.io/laser-orientation/laser-lab-case-study-key.html#0_INTRODUCTION)**:** Case studies are interactive coding experiences that expand upon the code-along introduced in the overview presentation and can be completed independently or in small groups. These activities demonstrate how key data-intensive research workflow processes (i.e., wrangling, visualizing, summarizing, modeling, and communicating data) featured in exemplary STEM education research studies are implemented in R. Our first case study will also introduce you to this workflow as well as R Markdown, which is heavily integrated into each LASER Learning Labs.
 
-## GitHub Desktop
+3.  [**Essential Readings**](#0): Each lab includes curated readings to help scholars dive deeper into LA concepts, techniques, and applications introduced in presentation and case studies. Each module includes an exemplary research article that illustrates how LA applications and/or techniques highlighted in each lab (e.g., data visualization, topic modeling) have been used in STEM education contexts. For our orientation reading lab, we focus on select chapters from [Reproducible Research with R and RStudio](http://github.com/christophergandrud/Rep-Res-Book) (Gandrud 2013) and [Learning Analytics Goes to School](https://doi.org/10.4324/9781315650722) (Krumm, Means, and Bienkowski 2018).
 
-This presentation introduces the concept of version control as a one core practice of reproducible research. The presentation will cover adding version control to the learning analytics workflow using [github.com](https://github.com/) and an application called Github Desktop. We will become familiar with navigating github.com and examining the file structures associated with repositories. 
-
-The accompanying walkthrough introduces Github Desktop as a tool for the creation of new repositories, cloning the LASER Learning Lab repositories, and navigating to the resulting local copy of the repository to make changes to the files contained within the project. At the end of this walkthrough, we will have an R project set up for the next presentation in this orientation session.
-
-## RStudio Desktop
-
-This presentation introduction the RStudio Desktop environment and getting started with R. We will become familiar with the R Environment, setting up global options, creating R scripts and the basic grammar of the R programming language.
-
-The accompanying code-along introduces basic programming concepts in R, such as using functions, proving arguments to functions, creating objects, and installing packages. Finally, we will learn how to knit RMarkdown files to produce readable, shareable versions of our work.
-
-## Wrapping Up
-
-After completing the walkthrough and code-along accompanying these orientation presentations, we will wrap up by examining our code changes in Github Desktop and introduce the concept of committing and pushing our changes to [github.com](https://github.com/). Finally, we will introduce setting up Github Pages as an easy means of sharing research online directly from a Github repository.
-
-At the end of the orientation presentations, we will cover the hands-on work of completing a Learning Lab case study to earn your first LASER badge (shown above).
+4.  [**Badge**](https://laser-institute.github.io/laser-orientation/laser-lab-case-study-key.html#Your_First_LASER_Badge). The culminating activity for each is designed to help learners reflect on how the concepts and techniques introduced might apply to their own STEM education research. Scholars are also required to demonstrate their technical proficiency with the analytical techniques and methods addressed in each lab. For our first lab, you'll learn how to convert an R Markdown file into a webpage and publish to Posit Cloud.

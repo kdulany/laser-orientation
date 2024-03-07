@@ -1,0 +1,153 @@
+---
+  title: "Summer Workshop Evaluation &  What's Next?"
+  author: "**The LASER Team**"
+  institute: "Institutional Affiliation"
+  date: 'July 21, 2023'
+  output:
+    xaringan::moon_reader:
+      css:
+       - default
+       - css/laser.css
+       - css/laser-fonts.css
+       - "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      lib_dir: libs                        # creates directory for libraries
+      seal: false                          # false: custom title slide
+      nature:
+        highlightStyle: default         # highlighting syntax for code
+        highlightLines: true               # true: enables code line highlighting
+        highlightLanguage: ["r"]           # languages to highlight
+        countIncrementalSlides: false      # false: disables counting of incremental slides
+        ratio: "16:9"                      # 4:3 for standard size,16:9
+        slideNumberFormat: |
+         <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+         </div>
+---
+class: clear, title-slide, inverse, center, top, middle
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r, echo=FALSE}
+# then load all the relevant packages
+pacman::p_load(pacman, knitr, tidyverse, xaringan, xaringanExtra)
+```
+
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+
+```{r xaringanExtra-clipboard, echo=FALSE}
+# these allow any code snippets to be copied to the clipboard so they 
+# can be pasted easily
+htmltools::tagList(
+  xaringanExtra::use_clipboard(
+    button_text = "<i class=\"fa fa-clipboard\"></i>",
+    success_text = "<i class=\"fa fa-check\" style=\"color: #90BE6D\"></i>",
+  ),
+  rmarkdown::html_dependency_font_awesome()
+)
+```
+```{r xaringan-extras, echo=FALSE}
+xaringanExtra::use_tile_view()
+
+```
+
+# `r rmarkdown::metadata$title`
+## `r rmarkdown::metadata$subtitle`
+### `r rmarkdown::metadata$author`
+### `r rmarkdown::metadata$date`
+
+<br>
+### .font110[Slides: [go.ncsu.edu/laser-exit](https://go.ncsu.edu/laser-exit)]
+
+
+
+---
+# What's Next?
+
+.panelset[
+
+.panel[.panel-name[Learning Labs & Office Hours]
+
+.pull-left[
+Late August through early December we'll offer:
+- **Virtual Learning Labs** for TM, ML, SNA, and FS 
+- **Office Hours** for open-ended discussion and support 
+
+]
+
+.pull-right[
+<img src="img/learning-labs.png" height="350px"/>
+]
+]
+
+.panel[.panel-name[SHARK Goals Check-Ins]
+
+.pull-left[
+
+Starting last August we'll be facilitating asynchronous: 
+- **monthly check-ins** to share progress toward your SHARK Goal.
+- **#shark-goals channel** on Slack to ask questions and discuss your goals
+]
+
+.pull-right[
+<img src="img/shark-goals.png" height="350px"/>
+]
+
+]
+
+
+
+
+.panel[.panel-name[Slack Community]
+
+.pull-left[
+.center[<img src="https://go.ncsu.edu/laser-slack.qr" height="300px"/><br>
+[go.ncsu.edu/laser-slack](https://go.ncsu.edu/laser-slack)]
+
+]
+
+.pull-right[
+<img src="img/slack.png" height="350px"/>
+
+]
+
+]
+
+]
+
+---
+# Evaluation & Availability
+
+.pull-left[
+.center[<img src="https://go.ncsu.edu/laser-eval.qr" height="350px"/><br><br>
+[go.ncsu.edu/laser-eval](https://go.ncsu.edu/laser-eval)]
+
+]
+
+.pull-right[
+.center[<img src="https://go.ncsu.edu/laser-availability.qr" height="350px"/><br><br>
+[go.ncsu.edu/laser-availability](https://go.ncsu.edu/laser-availability)]
+
+]
+
+
+---
+class: clear, center
+
+## .font130[.center[**Thank you!**]]
+
+
+.center[<img src="img/laser-instructors.png" height="300px"/>]
+
+.pull-left-narrow[.center[<img style="border-radius: 50%;" src="https://www.nsf.gov/images/logos/NSF_4-Color_bitmap_Logo.png" height="150px"/> ]]
+
+.pull-right-wide[
+.left[.font70[
+
+This work was supported by the National Science Foundation grant DRL-2025090 (ECR:BCSER). Any opinions, findings, and conclusions expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation.
+]]
+]
